@@ -16,10 +16,10 @@ function App() {
       <Router>
         <AppHeader />
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/gallery" exact element={<Gallery />} />
-          <Route path="/about" exact element={<About />} />
-          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/MajesticStudioWebsite" exact element={<Home />} />
+          <Route path="/MajesticStudioWebsite/gallery" exact element={<Gallery />} />
+          <Route path="/MajesticStudioWebsite/about" exact element={<About />} />
+          <Route path="/MajesticStudioWebsite/contact" exact element={<Contact />} />
         </Routes>
         <div>
         <Footer />
