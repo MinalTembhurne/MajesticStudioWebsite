@@ -1,0 +1,61 @@
+
+.body {
+    width: 100%;
+}
+
+.parallax-img {
+    background-image: url("/Users/Minu/majestic/src/Assets/home3-1.jpeg");
+}
+
+.parallax { 
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50%;
+}
+
+.third-container {
+    height: 550px;
+}
+
+
+
+/* ---- Card CSS ---- */
+
+.card-container {
+    margin: 5%;
+    align-content: center;
+   }
+
+   .card-container .custom-card {
+       border-radius: 20px; 
+       margin: 0.5%;
+       transition: all 0.3s ease 0s;
+      }
+   
+  .card-container .custom-card:hover{
+       transform: scale(1.25);
+   }
+   
+.card-container img{
+       border-radius: 20px 20px 0 0;
+   }
+   
+   
+.float{
+       /* float: right; */
+       display: flex !important;
+       justify-content: right;
+   }
+   
+.description {
+       font-family: 'Dancing Script', cursive;
+       letter-spacing: 2px;
+       word-spacing: 2px;
+   }
+   
+
+  

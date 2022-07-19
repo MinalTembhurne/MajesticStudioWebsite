@@ -1,0 +1,38 @@
+ /* ----- Parallax video Css ----- */
+
+
+ .video-container{
+    position: relative;
+ }
+
+ .parallax-video {
+    height: 80%;
+    /* opacity: 0.9; */
+}
+
+ .parallax-video  h1 {
+    font-family: 'DM Serif Display', serif;
+    display: inline;
+      /* justify-content: center;
+      align-items: center; */
+      color: white;
+      /* word-spacing: 2px; */
+      letter-spacing: 0.02em;
+      font-size: 50px;
+      text-align: right;
+      font-weight: 400;
+    }
+    
+    .parallax-video .majestic {
+        /* font-family: 'Dancing Script', cursive; */
+        letter-spacing: 0em;
+        font-size: 200px;
+        font-family: 'The Nautigal', cursive;
+    }
+
+     .parallax-video .hey {
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+    }
