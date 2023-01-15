@@ -6,7 +6,7 @@
  }
 
  .parallax-video {
-    height: 80%;
+    max-height: 80%;
     /* opacity: 0.9; */
 }
 
@@ -18,7 +18,7 @@
       color: white;
       /* word-spacing: 2px; */
       letter-spacing: 0.02em;
-      font-size: 50px;
+      font-size: 300%;
       text-align: right;
       font-weight: 400;
     }
@@ -26,7 +26,7 @@
     .parallax-video .majestic {
         /* font-family: 'Dancing Script', cursive; */
         letter-spacing: 0em;
-        font-size: 200px;
+        font-size: 900%;
         font-family: 'The Nautigal', cursive;
     }
 

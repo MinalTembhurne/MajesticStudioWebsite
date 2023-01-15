@@ -14,8 +14,13 @@
 }
 
 .fourth-container .ant-card-head-title {
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
-    letter-spacing: 2px;
+    font-family: 'The Nautigal', cursive;
+    /* 'Dancing Script', cursive; */
+    letter-spacing: 3.5px;
+}
+
+.fourth-container a{
+color: black;
 }

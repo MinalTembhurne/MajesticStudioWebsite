@@ -8,27 +8,27 @@ import { Link } from "react-router-dom";
 const items = [
     {
 
-        label: <Link to="/">Home</Link>,
+        label: <Link to="/MajesticStudioWebsite">Home</Link>,
         key: 'home',
     },
     {
-        label: <Link to="/gallery"> Gallery</Link>,
+        label: "Gallery",
         key: 'SubMenu',
         children: [
             {
-                label: 'Wedding',
+                label: <Link to="/MajesticStudioWebsite/gallery/wedding"> Wedding </Link>, 
                 key: 'wedding',
             },
             {
-                label: 'Engagement',
+                label: <Link to="/MajesticStudioWebsite/gallery/engagement"> Engagement </Link>,
                 key: 'engagement',
             },
             {
-                label: 'Pre-wedding',
+                label: <Link to="/MajesticStudioWebsite/gallery/pre-wedding">Pre-Wedding</Link>,
                 key: 'pre-wedding',
             },
             {
-                label: 'Potraits',
+                label: <Link to="/MajesticStudioWebsite/gallery/potraits"> Potraits </Link>,
                 key: 'potraits',
             },
         ],
@@ -36,11 +36,11 @@ const items = [
 
 
     {
-        label: <Link to="/about"> About</Link>,
+        label: <Link to="/MajesticStudioWebsite/about"> About</Link>,
         key: 'about',
     },
     {
-        label: <Link to="/contact"> Contact</Link>,
+        label: <Link to="/MajesticStudioWebsite/contact"> Contact</Link>,
         key: 'contact',
     },
 

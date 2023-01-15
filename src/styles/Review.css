@@ -1,24 +1,31 @@
+
+h2{
+    margin-bottom: 0.1em !important;
+}
+
 .review{
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .review .review-title{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     text-align: center;
 }
 
 .review .review-title h2{
-    font-size: 150;
-    font-weight: 400;
+    font-size: 200%;
+    font-weight: 200 !important;
     font-family: 'DM Serif Display', serif;
-    word-spacing: 5px;
-    letter-spacing: 2px;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .review .review-title h1{
-    font-size: 120px;
-    font-family: 'Dancing Script', cursive;
-    word-spacing: 2px;
+    font-size: 900%;
+    font-weight: 400;
+    font-family: 'The Nautigal', cursive;
+    word-spacing: 20px;
+    letter-spacing: 3px;
 }
 
 .review .review-grid img{
@@ -39,3 +46,9 @@
 	height: auto;
 	background-color: lightyellow;
 }
+
+/* ----Card ---- */
+
+/* .review .card-review {
+
+} */

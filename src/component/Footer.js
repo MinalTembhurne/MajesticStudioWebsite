@@ -45,7 +45,7 @@ function Footer() {
                 <a href="https://www.youtube.com/channel/UCph4uwFEvbNnwC8fss63hjA"><YoutubeIcon /></a>
                 <a href="https://www.facebook.com/harshal.deudkar"><FacebookIcon /></a>
             </div>
-            <p> &copy; 2022 TheMajesticStudio.com</p>
+            <p> &copy; 2023 TheMajesticStudio.com</p>
         </div>)
 }
 

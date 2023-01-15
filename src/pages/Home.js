@@ -1,11 +1,13 @@
 import React from 'react';
 import "../styles/Home.css";
 import { Card, Col, Row, } from 'antd';
-import ParallaxVideo from "../pages/Parallax-video.js";
-import FourthContainer from "../pages/Fourth-container";
-import Review from "../pages/Review";
+import ParallaxVideo from "./Parallax-video.js";
+import FourthContainer from "./Fourth-container";
+import Review from "./Review";
+import About from './About';
 
-const { Meta } = Card;
+
+// const { Meta } = Card;
 
 
 function Home() {
@@ -14,37 +16,28 @@ function Home() {
             <ParallaxVideo />
             <div className="card-container">
                 <Row>
-                    <Col span={7}>
+                    <Col span={10} className="description"><h1>Welcome to<br />THE MAJESTIC STUDIO</h1><h3 >Relive your special day again and again with my exceptional photos. I look for those special personal moments, making sure everyone shines. Since 2015, I've been capturing beautiful memories and I'd love to capture yours. </h3></Col>
+                    <Col span={14} className="float">
                         <Card className="custom-card"
                             style={{
-                                width: 240,
+                                width: 600,
                             }}
-                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<img alt="example" src="https://i0.wp.com/www.habkorea.net/wp-content/uploads/2020/02/The-Face-Studio-sample-19.jpg?resize=800%2C533&ssl=1" />}
                         >
-                            <Meta title="Europe Street beat" description="www.instagram.com" />
-                        </Card></Col>
-                    <Col span={10}><h1 className="description">Relive your special day again and again with my exceptional photos. I look for those special personal moments, making sure everyone shines. Since 2015, I've been capturing beautiful memories and I'd love to capture yours. </h1></Col>
-                    <Col span={7} className="float">
-                        <Card className="custom-card"
-                            style={{
-                                width: 240,
-                            }}
-                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-                        >
-                            <Meta title="Europe Street beat" description="www.instagram.com" />
+                            {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
                         </Card></Col>
                 </Row>
             </div>
             <div className="third-container">
                 <div className="parallax-img parallax" >
-                    {/* <div className="hey">
-                        <h1> Hey, I'm </h1> <h1 className='majestic'>The Majestic Studio ,</h1><br />
-                        <h1 className='Wheel'>your new third wheel.</h1>
-                    </div> */}
+                    <div className="hey">
+                        <h1> Capturing your <br/>  <div className='majestic2'>majestic</div> <br/>moments in the most natural way....</h1>
+                    </div>
                 </div>
             </div>
             <FourthContainer />
-            <Review />
+            <Review />   
+            <About />
         </div>
 
     )

@@ -1,0 +1,66 @@
+.about-title{
+    font-size: 800%;
+    font-weight: 400;
+    font-family: 'The Nautigal', cursive;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+.intro-photgrapher{
+    background-color: rgba(251,250,247,1);
+   font-size: 200%;
+   margin: 1.5% 0.5% 0.5% 0%;
+   /* margin: 3% 15% 10% 10%; */
+}
+.intro-border{
+    background-color: rgba(251,250,247,1);
+    border: black 1px solid;
+    margin: 5% 7% 5% 7%;
+
+}
+.intro-title{
+    font-size: 430%;
+    font-weight: 550;
+    font-family: 'The Nautigal', cursive;
+    word-spacing: 9px;
+    letter-spacing: 2px; 
+    text-align: center;
+    line-height: 200%;
+}
+.intro-subtitle{
+    font-size: 85%;
+    font-family: 'DM Serif Display', serif;
+    word-spacing: 1.5px;
+    text-align: center;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    line-height: 0.01%;
+
+}
+.intro-detail{
+    text-align: center;
+    font-size: 60%;
+    margin: 10% 13% 10% 13%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 99%;
+}
+
+.picture-photographer{
+    font-size: 200%;
+    /* border-color: black; */
+    margin: 1.5% 0.5% 0.5% 0%;
+}
+.picture-photographer img{
+    height: 100%;
+}
+.sign{
+    font-family: "Golden Hopes";
+    font-size: 60px;
+    line-height: 0.9;
+    text-align: right;
+    font-weight: 400;
+    position: relative;
+    color: grey;
+    transform: rotate(-20deg);
+}
