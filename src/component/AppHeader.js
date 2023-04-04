@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 const items = [
     {
-
         label: <Link to="/MajesticStudioWebsite">Home</Link>,
         key: 'home',
     },
@@ -16,7 +15,7 @@ const items = [
         key: 'SubMenu',
         children: [
             {
-                label: <Link to="/MajesticStudioWebsite/gallery/wedding"> Wedding </Link>, 
+                label: <Link to="/MajesticStudioWebsite/gallery/wedding"> Wedding </Link>,
                 key: 'wedding',
             },
             {
@@ -33,7 +32,6 @@ const items = [
             },
         ],
     },
-
 
     {
         label: <Link to="/MajesticStudioWebsite/about"> About</Link>,
@@ -53,14 +51,12 @@ const AppHeader = () => {
         console.log('click ', e);
         setCurrent(e.key);
     };
-
-
     return (
         <Row className="navbar">
             <Col span={10} ><img className="logo" src={Logo} alt="logo" /></Col>
             <Col span={14}>
                 <Menu className="menu" onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
-        </Col>
+            </Col>
         </Row>);
 };
 

@@ -1,0 +1,51 @@
+.main h1{
+    font-size: 600%;
+    font-weight: 550;
+    font-family: 'The Nautigal', cursive;
+    word-spacing: 9px;
+    letter-spacing: 2px; 
+    text-align: center;
+    line-height: 100%;
+}
+.main p{
+    font-size: 140%;
+    font-family: 'DM Serif Display', serif;
+    word-spacing: 1.5px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 17%;
+    background-image: linear-gradient(rgb(23, 26, 38), rgba(23, 26, 38, 0));
+    background-color: transparent;
+}
+/* .main-bg {
+     background-image: url("/Users/Minu/Desktop/Client_Projects/MajesticStudioWebsite/src/Assets/contactbackground.jpeg");
+     width: 100%;
+    } */
+
+.booking {
+    display: flex;
+  justify-content: center;  
+}
+.main .socialMedia {
+    color: black;
+}
+
+.main .socialMedia svg{
+    color: black;
+    margin: 20px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+.booking button {
+    color: aliceblue;
+    background: black;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px 32px;
+  }

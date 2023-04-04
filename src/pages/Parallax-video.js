@@ -16,5 +16,4 @@ function ParallaxVideo() {
         </div>
     )
 }
-
 export default ParallaxVideo;

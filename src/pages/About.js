@@ -3,8 +3,6 @@ import "../styles/About.css";
 import { Col, Row } from 'antd';
 import Profile from "../Assets/majestic.jpg"
 
-
-
 function About() {
   return (
     <>
@@ -19,12 +17,11 @@ function About() {
               <div className='intro-detail'>Harshal has a passion for beautiful design, authentic moments, natural imagery, and preserving memories. Each of these passions play a key part in how Harshal approaches photography, and telling a story with images for the families and couples.</div>
             </div>
           </Col>
-          <Col className='picture-photographer' span={11}><img src={Profile} alt="profile-picture" /><div className='sign'>Photographer.<br/>
+          <Col className='picture-photographer' span={11}><img src={Profile} alt="profile-picture"/><div className='sign'>Photographer.<br/>
             Storyteller. <br/>
             Blessed.
             </div></Col>
-          <Col span={1}>
-            
+          <Col span={1}>  
           </Col>
         </Row>
       </div>

@@ -2,12 +2,9 @@ import React from 'react';
 import "../styles/Home.css";
 import { Card, Col, Row, } from 'antd';
 import ParallaxVideo from "./Parallax-video.js";
-import FourthContainer from "./Fourth-container";
+import CompactGallery from "./CompactGallery";
 import Review from "./Review";
 import About from './About';
-
-
-// const { Meta } = Card;
 
 
 function Home() {
@@ -22,8 +19,7 @@ function Home() {
                             style={{
                                 width: 600,
                             }}
-                            cover={<img alt="example" src="https://i0.wp.com/www.habkorea.net/wp-content/uploads/2020/02/The-Face-Studio-sample-19.jpg?resize=800%2C533&ssl=1" />}
-                        >
+                            cover={<img alt="example" src="https://i0.wp.com/www.habkorea.net/wp-content/uploads/2020/02/The-Face-Studio-sample-19.jpg?resize=800%2C533&ssl=1" />}>
                             {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
                         </Card></Col>
                 </Row>
@@ -31,15 +27,14 @@ function Home() {
             <div className="third-container">
                 <div className="parallax-img parallax" >
                     <div className="hey">
-                        <h1> Capturing your <br/>  <div className='majestic2'>majestic</div> <br/>moments in the most natural way....</h1>
+                        <h1> Capturing your <br />  <div className='majestic2'>majestic</div> <br />moments in the most natural way....</h1>
                     </div>
                 </div>
             </div>
-            <FourthContainer />
-            <Review />   
+            <CompactGallery/>
+            <Review />
             <About />
         </div>
-
     )
 }
 

@@ -7,7 +7,6 @@ import "../styles/Footer.css";
 
 function Footer() {
     return (
-
         <div className="footer">
             <div>
                 <Row>
@@ -23,10 +22,9 @@ function Footer() {
                         <div>
                             <p className="bold">Phone number:</p>
                             <div className="phone">
-                            <p>Office - +91 8999946164 </p>
-                            <p>Assistant- +91 70583 30406</p>
+                                <p>Office - +91 8999946164 </p>
+                                <p>Assistant- +91 70583 30406</p>
                             </div>
-                            
                         </div>
                         <div>
                             <div className="bold">Email id: </div>
@@ -39,14 +37,13 @@ function Footer() {
                     </Col>
                 </Row>
             </div>
-
             <div className="socialMedia">
                 <a href="https://instagram.com/themajesticstudio?igshid=YmMyMTA2M2Y="><InstagramIcon /> </a>
                 <a href="https://www.youtube.com/channel/UCph4uwFEvbNnwC8fss63hjA"><YoutubeIcon /></a>
                 <a href="https://www.facebook.com/harshal.deudkar"><FacebookIcon /></a>
             </div>
             <p> &copy; 2023 TheMajesticStudio.com</p>
-        </div>)
+        </div>);
 }
 
 export default Footer;

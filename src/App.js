@@ -11,10 +11,7 @@ import Engagement from "./pages/Engagement";
 import Prewedding from "./pages/Pre-wedding";
 import Potraits from "./pages/Potraits";
 import './App.css';
-import Rough from "./pages/rough";
-
-
-
+// import Rough from "./pages/rough";
 
 function App() {
   return (
