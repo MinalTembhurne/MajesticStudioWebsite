@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/majesticstudiowebsite/static/css/main.ae1cd010.css",
-    "main.js": "/majesticstudiowebsite/static/js/main.cfee44be.js",
+    "main.css": "/majesticstudiowebsite/static/css/main.24657b46.css",
+    "main.js": "/majesticstudiowebsite/static/js/main.b429bfed.js",
     "static/media/6247.jpg": "/majesticstudiowebsite/static/media/6247.641e7c44a518687684ba.jpg",
     "static/media/6250.jpg": "/majesticstudiowebsite/static/media/6250.9460dfcd8f4e80edfa7e.jpg",
     "static/media/5795.jpg": "/majesticstudiowebsite/static/media/5795.220156c4d8b140815623.jpg",
-    "static/media/6251.jpg": "/majesticstudiowebsite/static/media/6251.527b9ae9f10ce02bb4fb.jpg",
     "static/media/2335.jpg": "/majesticstudiowebsite/static/media/2335.511d82dc8ec2a2cc11f5.jpg",
     "static/media/5473.jpg": "/majesticstudiowebsite/static/media/5473.473662169bd22efc4453.jpg",
     "static/media/5471.jpg": "/majesticstudiowebsite/static/media/5471.6411abfaa26002311dc1.jpg",
@@ -13,11 +12,11 @@
     "static/media/home3-1.jpeg": "/majesticstudiowebsite/static/media/home3-1.b344857b4caae3839fcd.jpeg",
     "static/media/majestic.jpg": "/majesticstudiowebsite/static/media/majestic.ccc647e91db70778708e.jpg",
     "index.html": "/majesticstudiowebsite/index.html",
-    "main.ae1cd010.css.map": "/majesticstudiowebsite/static/css/main.ae1cd010.css.map",
-    "main.cfee44be.js.map": "/majesticstudiowebsite/static/js/main.cfee44be.js.map"
+    "main.24657b46.css.map": "/majesticstudiowebsite/static/css/main.24657b46.css.map",
+    "main.b429bfed.js.map": "/majesticstudiowebsite/static/js/main.b429bfed.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae1cd010.css",
-    "static/js/main.cfee44be.js"
+    "static/css/main.24657b46.css",
+    "static/js/main.b429bfed.js"
   ]
 }
